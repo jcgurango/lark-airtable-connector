@@ -69,7 +69,19 @@ module.exports = {
           return false;
         },
         'ID',
-        ['Date', 'Employee ID', 'Required Duration', 'Actual Duration', 'Overtime Hours', 'Leave Time']
+        [
+          'Date',
+          'Employee ID',
+          'Required Duration',
+          'Actual Duration',
+          'Overtime Hours',
+          'Shift Time In',
+          'Shift Time Out',
+          'First In',
+          'Last Out',
+          'Leave Type',
+          'Leave Time',
+        ]
       )
     );
 
